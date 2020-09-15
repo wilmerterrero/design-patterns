@@ -21,7 +21,7 @@ namespace factory
         */
         public void ClientCode(MailLogistic mailLogistics) 
         {
-            Console.WriteLine($"Client: Launching app: {mailLogistics.CreateMailOperation()}");
+            Console.WriteLine($"Client: Launching app: {mailLogistics.CreateMailLogistic()}");
         }
     }
 }
