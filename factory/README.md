@@ -6,8 +6,8 @@ The Factory Method is a creational design pattern that help us to create objects
 That's bring the ability in each subclass to create new objects without change the way that products are created.
 
 ### SOLID applies (?)
-[x] ***Single Responsibility Principle***. You can move the product creation code into one place in the program, making the code easier to support.
-[x] ***Open/Closed Principle***. You can introduce new types of products into the program without breaking existing client code.
+- [x] ***Single Responsibility Principle***. You can move the product creation code into one place in the program, making the code easier to support.
+- [x] ***Open/Closed Principle***. You can introduce new types of products into the program without breaking existing client code.
 
 ### Example
 We're a software enterprise that create apps for other enterprises. We need to create a Mail System for a mail delivery enterprise. At the beginning of the software design we only know two mail logistics, but as the system grows, the ability to create more mailing logistics is needed. 
